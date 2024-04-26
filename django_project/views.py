@@ -10,4 +10,4 @@ def weather_app(request):
     
 
   
-  return render(request, 'main/weather_page.html')
+  return render(request, 'main/weather_page.html', {'weather_data': weather_data})
